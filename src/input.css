@@ -1,3 +1,129 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,200;1,300;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/*clases reutilizables*/
+
+.container{
+    @apply max-w-[1280px] mx-auto px-4;
+}
+
+body{
+    @apply text-base leading-[1.6] font-barlow text-black ;
+}
+
+img{
+    @apply w-full block;
+}
+
+ul{
+    @apply list-none;
+}
+
+/* utilities */
+.lead-text{
+    @apply text-xl font-normal;
+}
+
+.para-text{
+    @apply text-base font-normal text-white/90;
+}
+
+.section-btn{
+    @apply min-w-[200px] py-[10px] px-[18px] uppercase text-xl font-bold tracking-[.15em] bg-submarine-600 text-white relative z-10 border-[3px] border-solid border-coral-600 hover:bg-transparent transition ease-in-out duration-300;
+}
+
+.img-fit-cover img{
+    @apply w-full h-full object-cover;
+}
+
+.btn-primary{
+    @apply mt-4 h-[34px] text-center border-solid border-[1px] border-cyan-800 py-0 px-4 bg-white min-w-[108px] font-semibold tracking-[.03em] inline-flex items-center text-white bg-transparent transition ease-in-out duration-300 hover:bg-gray-800;
+}
+
+.btn-secondary{
+    @apply mt-4 h-[34px] text-center border-solid border-[1px] border-coral-300 py-0 px-4 bg-transparent min-w-[108px] font-semibold tracking-[.03em] inline-flex items-center text-cyan-500 transition ease-in-out duration-300 hover:bg-coral-600 hover:text-white;
+}
+
+.resize-animation-stopper *{
+    animation: none!important;
+    transition: none!important;
+}
+
+/* HEADER */
+.banner-home{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)), linear-gradient(248.75deg, rgba(0, 159, 157, 0.41) 0%, rgba(15, 10, 60, 0.41) 38.46%), url("../assets/img/banner1.jpg") center/cover no-repeat;
+    @apply min-h-screen flex items-center justify-start;
+}
+
+.header .lead-text{
+    @apply max-w-[600px];
+}
+
+.banner-content{
+    @apply w-full container text-white flex flex-col items-center md:items-center;
+}
+
+.banner-badge{
+    @apply uppercase bg-purple-600 py-2 px-4 font-semibold text-xl tracking-[.1em] inline-block mb-6;
+}
+
+.banner-title{
+    @apply font-poppins text-3xl md:text-5xl font-normal tracking-[.09em] leading-[1.2] max-w-[600px] mb-10 uppercase lg:text-[56px] text-center ;
+}
+
+.banner-content .lead-text{
+    @apply text-center md:text-start;
+}
+
+.banner-btn{
+    @apply min-w-[140px] h-[45px] py-3 px-4 text-base font-semibold uppercase border-2 border-solid border-emerald-500 mt-8 flex items-center hover:bg-purple-700 hover:text-white transition ease-in-out duration-300;
+}
+
+/* NAVBAR */
+.navbar{
+    @apply fixed left-0 top-0 w-full min-h-[78px] bg-indigo-950 z-40;
+}
+
+.navbar-brand{
+    @apply text-white uppercase whitespace-nowrap font-bold text-[32px];
+}
+
+.nav-item{
+    @apply py-[10px] px-0 border-b-[1px] border-solid border-black/10 lg:ms-[6px];
+}
+
+.nav-link{
+    @apply uppercase font-semibold tracking-[2px] transition duration-300 ease-in-out text-teal-300 hover:text-pink-600 lg:py-[1px] lg:px-[10px] lg:text-white xl:px-4;
+}
+
+#navbar-hide-btn{
+    @apply absolute top-5 right-5 transition duration-300 ease-in-out hover:scale-125;
+}
+
+.navbar-content{
+    @apply lg:flex lg:items-center lg:justify-between;
+}
+
+.navbar-nav{
+    @apply lg:flex;
+}
+
+.connect-link{
+    @apply py-[6px] px-2 flex items-center justify-center transition ease-in-out duration-300 invert hover:opacity-90 lg:text-white;
+}
+
+.connect-link img{
+    @apply lg:invert;
+}
+
+.connect-list{
+    @apply flex justify-center items-center flex-wrap mt-6 lg:mt-0 lg:text-white lg:ms-10 lg:flex-nowrap xl:ms-[88px];
+}
+
+.connect-text{
+    @apply uppercase opacity-90 font-bold w-full tracking-[2px] mb-3 lg:w-auto lg:mb-0 lg:me-8;
+}
