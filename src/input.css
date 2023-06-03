@@ -119,7 +119,7 @@ ul{
 }
 
 .connect-list{
-    @apply flex justify-center items-center flex-wrap mt-6 lg:mt-0 lg:text-white lg:ms-10 lg:flex-nowrap xl:ms-[88px];
+    @apply flex justify-center items-center flex-wrap mt-6 lg:mt-0 lg:text-white lg:ms-10 lg:flex-nowrap xl:ms-[100px];
 }
 
 .connect-text{
@@ -223,6 +223,23 @@ ul{
 
 
 
+/*FOOTER*/
+
+.newsletter-form{
+    @apply flex items-stretch h-12 w-full mx-auto transition ease-in-out duration-300;
+}
+
+.input-group{
+    @apply h-12 max-w-[284px] w-full mx-auto lg:ms-0 transition ease-in-out duration-300 flex items-stretch;
+}
+
+.input-group-field{
+    @apply bg-pink-700 px-[22px] flex-1 text-white;
+}
+
+.input-group-btn{
+    @apply bg-white inline-flex items-center justify-center w-12 hover:scale-[1.1] text-pink-700 transition ease-in-out duration-300;
+}
 
 
 
