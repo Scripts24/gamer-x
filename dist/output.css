@@ -599,10 +599,6 @@ video {
   display: flex;
 }
 
-.h-96{
-  height: 24rem;
-}
-
 .h-full{
   height: 100%;
 }
@@ -632,6 +628,19 @@ video {
   justify-content: space-between;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.overflow-y-hidden{
+  overflow-y: hidden;
+}
+
+.bg-violet-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(76 29 149 / var(--tw-bg-opacity));
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -640,6 +649,11 @@ video {
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .pb-4{
@@ -856,11 +870,6 @@ ul{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.resize-animation-stopper *{
-  animation: none!important;
-  transition: none!important;
-}
-
 /* HEADER */
 
 .banner-home{
@@ -868,7 +877,7 @@ ul{
   display: flex;
   min-height: 100vh;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .header .lead-text{
@@ -1206,15 +1215,145 @@ ul{
   }
 }
 
+/* SECCIÓN */
+
+.sc-title{
+  margin-bottom: 2.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.sc-title h2{
+  position: relative;
+  text-transform: uppercase;
+}
+
+.sc-title h2 span{
+  --tw-text-opacity: 1;
+  color: rgb(192 38 211 / var(--tw-text-opacity));
+}
+
+/* DESTACADOS */
+
+.sc-popular{
+  --tw-bg-opacity: 1;
+  background-color: rgb(46 16 101 / var(--tw-bg-opacity));
+}
+
+/* Slick slider */
+
+.slider-item{
+  width: 150px;
+  cursor: grab;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 1200px){
+  .slider-item{
+    width: 270px;
+  }
+}
+
+.slider-item img{
+  border-width: 6px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(134 25 143 / var(--tw-border-opacity));
+}
+
+.slick-dots li{
+  height: 10px;
+  width: 60px;
+}
+
+.slick-dots li button::before{
+  height: 100%;
+  width: 100%;
+  border-width: 2px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(192 38 211 / var(--tw-border-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-duration: 300ms;
+  content: var(--tw-content);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slick-dots li button{
+  color: unset;
+}
+
+.slick-dots li.slick-active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 25 143 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 992px){
+  .slick-center{
+    --tw-scale-x: 1.5;
+    --tw-scale-y: 1.5;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+}
+
+.slick-prev{
+  position: absolute;
+  left: 1rem;
+  z-index: 10;
+  --tw-scale-x: 1.4;
+  --tw-scale-y: 1.4;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.slick-next{
+  position: absolute;
+  right: 1rem;
+  z-index: 10;
+  --tw-scale-x: 1.4;
+  --tw-scale-y: 1.4;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 /*PARTICLES*/
 
 #particles-js {
+  height: 100vh;
   width: 100%;
   position: fixed;
 }
 
-.particles-content {
+.contenedor {
   position: relative;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 992px){
+  .slick-list{
+    padding-top: 110px!important;
+    padding-bottom: 110px!important;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .slick-list{
+    padding-top: 140px!important;
+    padding-bottom: 140px!important;
+  }
 }
 
 @media (min-width: 576px){

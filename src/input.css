@@ -48,15 +48,13 @@ ul{
     @apply mt-4 h-[34px] text-center border-solid border-[1px] border-coral-300 py-0 px-4 bg-transparent min-w-[108px] font-semibold tracking-[.03em] inline-flex items-center text-cyan-500 transition ease-in-out duration-300 hover:bg-coral-600 hover:text-white;
 }
 
-.resize-animation-stopper *{
-    animation: none!important;
-    transition: none!important;
-}
+
 
 /* HEADER */
+
 .banner-home{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.32)), linear-gradient(248.75deg, rgba(0, 159, 157, 0.41) 0%, rgba(15, 10, 60, 0.41) 38.46%), url("../assets/img/banner1.jpg") center/cover no-repeat;
-    @apply min-h-screen flex items-center justify-start;
+    @apply  min-h-screen flex items-center justify-center;
 }
 
 .header .lead-text{
@@ -128,7 +126,60 @@ ul{
     @apply uppercase opacity-90 font-bold w-full tracking-[2px] mb-3 lg:w-auto lg:mb-0 lg:me-8;
 }
 
+/* SECCIÓN */
+.sc-title{
+    @apply py-3 px-0 text-center font-extrabold text-[32px] tracking-[.1em] text-white mb-10 font-poppins;
+}
 
+.sc-title h2{
+    @apply uppercase relative;
+}
+
+.sc-title h2 span{
+    @apply text-pink-600;
+}
+
+/* DESTACADOS */
+.sc-popular{
+    @apply bg-violet-950;
+}
+
+
+/* Slick slider */
+
+.slider-item{
+    @apply w-[150px] xl:w-[270px] px-4 outline-none cursor-grab;
+}
+
+.slider-item img{
+    @apply border-solid border-[6px] border-pink-800;
+}
+
+
+.slick-dots li{
+    @apply h-[10px] w-[60px];
+}
+
+.slick-dots li button{
+    @apply before:w-full before:h-full before:border-solid before:border-2 before:border-pink-600 before:transition before:duration-300 before:ease-in-out;
+    color: unset;
+}
+
+.slick-dots li.slick-active{
+    @apply bg-pink-800;
+}
+
+.slick-center{
+    @apply lg:scale-150;
+}
+
+.slick-prev{
+    @apply absolute left-4 z-10 scale-[1.4];
+}
+
+.slick-next{
+    @apply absolute right-4 z-10 scale-[1.4];
+}
 
 
 
@@ -139,9 +190,27 @@ ul{
 /*PARTICLES*/
 
 #particles-js {
+	height: 100vh; 
 	width: 100%;
     position: fixed;
 }
-.particles-content {
+
+.contenedor {
     position: relative;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 992px){
+    .slick-list{
+        padding-top: 110px!important;
+        padding-bottom: 110px!important;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .slick-list{
+        padding-top: 140px!important;
+        padding-bottom: 140px!important;
+    }
 }

@@ -31,7 +31,7 @@ particlesJS(
                 "random": false,
                 "anim": {
                     "enable": true,
-                    "speed": 10,
+                    "speed": 8,
                     "opacity_min": 0.3,
                     "sync": false
                 }
@@ -41,7 +41,7 @@ particlesJS(
                 "random": true,
                 "anim": {
                     "enable": false,
-                    "speed": 40,
+                    "speed": 20,
                     "size_min": 0.1,
                     "sync": false
                 }
@@ -76,7 +76,7 @@ particlesJS(
                     "mode": "repulse"
                 },
                 "onclick": {
-                    "enable": true,
+                    "enable": false,
                     "mode": "push"
                 },
                 "resize": true
