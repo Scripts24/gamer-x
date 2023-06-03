@@ -78,25 +78,27 @@
 
     <!--Inicio contenido principal-->
     <main>
+        <!-- ID Particles.js -->
+        <div id="particles-js"></div>
         <!--Banner Inicio-->
         <section class="banner-home" id="home">
-            <div class="banner-content">
+            <div class="banner-content particles-content">
                 <h1 class="banner-title">vive la mejor experiencia</h1>
                 <div class="banner-badge">únete al streaming</div>
-                <button type="button" class="banner-btn">
-                    <span class="me-4">
+                <button type="button" class="banner-btn mb-8">
+                    <span class="me-4 ">
                         <img src="./assets/icons/console.svg">
                     </span>
                     <span>Jugar ahora</span>
                 </button>
-                <h2 class="uppercase text-2xl">forma parte de nuestra comunidad en discord <i
+                <h2 class="uppercase text-2xl text-center">forma parte de nuestra comunidad en discord <i
                         class="fa-brands fa-discord mt-8" style="color: #eff1f5;"></i></h2>
             </div>
         </section>
         <!--Fin banner Inicio-->
         <!--Inicio Sección Populares-->
         <section id="popular">
-
+<div class="popular h-96"></div>
             <!--Cards Populares-->
 
             <!--Slick slider-->
@@ -115,6 +117,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Mi js -->
     <script src="./src/main.js"></script>
+    <!-- JS Particles.js -->
+    <script src="./src/particles.min.js"></script>
+    <script src="./src/particles.js"></script>
 </body>
 
 </html>
