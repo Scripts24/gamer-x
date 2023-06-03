@@ -632,10 +632,6 @@ video {
   overflow: hidden;
 }
 
-.overflow-y-hidden{
-  overflow-y: hidden;
-}
-
 .bg-violet-900{
   --tw-bg-opacity: 1;
   background-color: rgb(76 29 149 / var(--tw-bg-opacity));
