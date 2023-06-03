@@ -77,7 +77,7 @@
     <!--Fin header y nav-->
 
     <!--Inicio contenido principal-->
-    <main >
+    <main>
         <!--Banner Inicio-->
         <section class="banner-home" id="home">
             <!-- ID Particles.js -->
@@ -103,40 +103,322 @@
                     <h2>juegos <span>destacados</span></h2>
                 </div>
             </div>
+
             <!--Cards Populares-->
 
-            <!--Slick slider-->
-            <div class="py-16 bg-violet-900 overflow-hidden">
-                <div class="game-slider">
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s1.jpg" class="slider-item-img">
+            <div class="game-card-list grid gap-6 md:grid-cols-2 lg:grid-cols-3 mx-10">
+
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover">
+                        <img src="./assets/img/cards/1.jpg">
+                        <div class="ratings-count">
+                            648
+                            <img src="./assets/icons/star-black.svg" class="ms-2">
+                        </div>
                     </div>
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s2.jpg" class="slider-item-img">
-                    </div>
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s3.jpg" class="slider-item-img">
-                    </div>
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s4.jpg" class="slider-item-img">
-                    </div>
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s5.jpg" class="slider-item-img">
-                    </div>
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s6.jpg" class="slider-item-img">
-                    </div>
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s7.jpg" class="slider-item-img">
-                    </div>
-                    <div class="slider-item img-fit-cover">
-                        <img src="./assets/img/slider/s8.jpg" class="slider-item-img">
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">nightmare reaper</h4>
+                                <p class="para-text">Una combinación oscura y violenta de juegos de acción retro y
+                                    modernos.</p>
+                            </div>
+                        </div>
+
+                        <div class="block-wrap flex justify-between items-end">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Lanzamiento: &nbsp;
+                                    </p>
+                                    <p>28/03/2022</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Editor: &nbsp;
+                                    </p>
+                                    <p>Blazing Bit Games</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Género: &nbsp;
+                                    </p>
+                                    <p>Acción</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col items-end justify-between">
+                                <a href="https://www.youtube.com/watch?v=cDXepl8auN0" target="_self" class="btn-primary uppercase">Ver video</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!--Fin Slider-->
+
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover">
+                        <img src="./assets/img/cards/2.jpg">
+                        <div class="ratings-count">
+                            587
+                            <img src="./assets/icons/star-black.svg" class="ms-2">
+                        </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">Symphony of War</h4>
+                                <p class="para-text">En el cambio del milenio, el mundo de Tahnra se dirige a un ajuste de cuentas</p>
+                            </div>
+                        </div>
+
+                        <div class="block-wrap flex justify-between items-end">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Lanzamiento: &nbsp;
+                                    </p>
+                                    <p>10/06/2022</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Editor: &nbsp;
+                                    </p>
+                                    <p>Juegos de Libertad</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Género: &nbsp;
+                                    </p>
+                                    <p>Estrategia</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col items-end justify-between">
+                                <a href="https://www.youtube.com/watch?v=gaCRuLXhLFw" target="_self" class="btn-primary uppercase">Ver video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover">
+                        <img src="./assets/img/cards/3.jpg">
+                        <div class="ratings-count">
+                            723
+                            <img src="./assets/icons/star-black.svg" class="ms-2">
+                        </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">Railway Empire</h4>
+                                <p class="para-text">En 1830 comenzó la lucha por establecer el imperio ferroviario más poderoso.</p>
+                            </div>
+                        </div>
+
+                        <div class="block-wrap flex justify-between items-end">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Lanzamiento: &nbsp;
+                                    </p>
+                                    <p>26/01/2018</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Editor: &nbsp;
+                                    </p>
+                                    <p>Kalypso Media</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Género: &nbsp;
+                                    </p>
+                                    <p>Estrategia</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col items-end justify-between">
+                                <a href="https://www.youtube.com/watch?v=LdO8cTUB4IM" target="_self" class="btn-primary uppercase">Ver video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover">
+                        <img src="./assets/img/cards/4.jpg">
+                        <div class="ratings-count">
+                            655
+                            <img src="./assets/icons/star-black.svg" class="ms-2">
+                        </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">Wolcen</h4>
+                                <p class="para-text">Serás parte de la operación Dawnbane bajo el mando de Maëlys</p>
+                            </div>
+                        </div>
+
+                        <div class="block-wrap flex justify-between items-end">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Lanzamiento: &nbsp;
+                                    </p>
+                                    <p>13/02/2020</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Editor: &nbsp;
+                                    </p>
+                                    <p>Aspyr Media</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Género: &nbsp;
+                                    </p>
+                                    <p>Aventura</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col items-end justify-between">
+                                <a href="https://www.youtube.com/watch?v=7HoeHV2P5kU" target="_self" class="btn-primary uppercase">Ver video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover">
+                        <img src="./assets/img/cards/5.jpg">
+                        <div class="ratings-count">
+                            632
+                            <img src="./assets/icons/star-black.svg" class="ms-2">
+                        </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">Chaos Reborn</h4>
+                                <p class="para-text">Puedes explorar los reinos del caos luchando contra magos y reyes</p>
+                            </div>
+                        </div>
+
+                        <div class="block-wrap flex justify-between items-end">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Lanzamiento: &nbsp;
+                                    </p>
+                                    <p>26/10/2015</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Editor: &nbsp;
+                                    </p>
+                                    <p>Aspyr Media</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Género: &nbsp;
+                                    </p>
+                                    <p>Estrategia</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col items-end justify-between">
+                                <a href="https://www.youtube.com/watch?v=-aaPrvgnhI8" target="_self" class="btn-primary uppercase">Ver video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="game-card">
+                    <div class="game-card-top img-fit-cover">
+                        <img src="./assets/img/cards/6.jpg">
+                        <div class="ratings-count">
+                            598
+                            <img src="./assets/icons/star-black.svg" class="ms-2">
+                        </div>
+                    </div>
+                    <div class="game-card-bottom">
+                        <div class="flex flex-col sm:flex-row justify-between items-start flex-wrap">
+                            <div class="py-1">
+                                <h4 class="text-white uppercase game-card-title">FINAL FANTASY VII</h4>
+                                <p class="para-text">Combina el combate tradicional y la acción en tiempo real.</p>
+                            </div>
+                        </div>
+
+                        <div class="block-wrap flex justify-between items-end">
+                            <div class="details-group">
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Lanzamiento: &nbsp;
+                                    </p>
+                                    <p>17/06/2022</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Editor: &nbsp;
+                                    </p>
+                                    <p>Square Enix</p>
+                                </div>
+                                <div class="flex items-center">
+                                    <p class="font-semibold">
+                                        Género: &nbsp;
+                                    </p>
+                                    <p>Aventura</p>
+                                </div>
+                            </div>
+
+                            <div class="flex flex-col items-end justify-between">
+                                <a href="https://www.youtube.com/watch?v=M4t1OFONu10" target="_self" class="btn-primary uppercase">Ver video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Fin cards-->
+
         </section>
+        <!--Slick slider-->
+        <div class="py-16 bg-violet-700 overflow-hidden">
+            <div class="game-slider">
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s1.jpg" class="slider-item-img">
+                </div>
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s2.jpg" class="slider-item-img">
+                </div>
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s3.jpg" class="slider-item-img">
+                </div>
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s4.jpg" class="slider-item-img">
+                </div>
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s5.jpg" class="slider-item-img">
+                </div>
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s6.jpg" class="slider-item-img">
+                </div>
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s7.jpg" class="slider-item-img">
+                </div>
+                <div class="slider-item img-fit-cover">
+                    <img src="./assets/img/slider/s8.jpg" class="slider-item-img">
+                </div>
+            </div>
+        </div>
+        <!--Fin Slider-->
         <!--Fin Sección Populares-->
+
+        <!--Inicio Sección Games-->
+        <section id="category">
+
+        </section>
+        <!--Fin Sección Games-->
     </main>
     <!--Fin contenido principal-->
     <!-- Jquery cdn -->

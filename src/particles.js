@@ -61,7 +61,7 @@ $(document).ready(function () {
                     },
                     "move": {
                         "enable": true,
-                        "speed": 8,
+                        "speed": 2,
                         "direction": "none",
                         "random": true,
                         "straight": false,

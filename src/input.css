@@ -23,7 +23,7 @@ ul{
     @apply list-none;
 }
 
-/* utilities */
+/* Utilities */
 .lead-text{
     @apply text-xl font-normal;
 }
@@ -41,7 +41,7 @@ ul{
 }
 
 .btn-primary{
-    @apply mt-4 h-[34px] text-center border-solid border-[1px] border-cyan-800 py-0 px-4 bg-white min-w-[108px] font-semibold tracking-[.03em] inline-flex items-center text-white bg-transparent transition ease-in-out duration-300 hover:bg-gray-800;
+    @apply mt-4 h-[34px] text-center border-solid border-[2px] border-teal-600 py-0 px-4 bg-white min-w-[108px] font-semibold tracking-[.03em] inline-flex items-center text-white bg-transparent transition ease-in-out duration-300 hover:bg-pink-600;
 }
 
 .btn-secondary{
@@ -144,6 +144,41 @@ ul{
     @apply bg-violet-950;
 }
 
+/* Cards destacados */
+
+.game-card{
+    @apply flex flex-col;
+}
+
+.game-card .game-card-top{
+    @apply h-[250px]  overflow-hidden relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full ;
+}
+
+.game-card .star-rating{
+    @apply flex;
+}
+
+.game-card .star-rating img{
+    @apply py-0 px-[2px];
+}
+
+.game-card .ratings-count{
+    @apply absolute left-[18px] bottom-[10px] font-bold text-[14px] py-[2px] px-3 rounded-2xl bg-white z-10 flex;
+}
+
+.game-card .game-card-bottom{
+    @apply flex-1 bg-violet-700 py-5 px-[18px] relative;
+}
+
+.game-card .game-card-title{
+    @apply text-[18px] font-extrabold font-poppins tracking-[.06em] mb-[10px];
+}
+
+.game-card .details-group{
+    @apply pt-3 text-white/60 text-[14px];
+}
+
+
 
 /* Slick slider */
 
@@ -152,7 +187,12 @@ ul{
 }
 
 .slider-item img{
-    @apply border-solid border-[6px] border-pink-800;
+    @apply border-solid border-[6px] border-pink-600;
+}
+
+.slick-list{
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
 }
 
 
@@ -161,12 +201,12 @@ ul{
 }
 
 .slick-dots li button{
-    @apply before:w-full before:h-full before:border-solid before:border-2 before:border-pink-600 before:transition before:duration-300 before:ease-in-out;
+    @apply before:w-full before:h-full before:border-solid before:border-2 before:border-coral-400 before:transition before:duration-300 before:ease-in-out;
     color: unset;
 }
 
 .slick-dots li.slick-active{
-    @apply bg-pink-800;
+    @apply bg-pink-600;
 }
 
 .slick-center{
