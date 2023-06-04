@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
     <!--PROTOCOLO OPEN GRAPH: Image-->
     <meta property="og:image"
-        content="https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2023-06-04/a44e43b76f44c82e9bc6f7359da7143b.ico.png">
+        content="https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2023-06-04/3b9761be9a0e45ef458e1cd65e85f5a2.ico.png">
     <!-- Font awesome  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -430,15 +430,16 @@
         <section class="py-16 sc-category bg-violet-950" id="category">
             <div class="container">
                 <div class="sc-title">
-                    <h3>Categorías</h3>
+                    <h3 id="titulo-principal">Categorías</h3>
                 </div>
 
                 <div
-                    class="button-group mx-auto filter-button-group flex items-center justify-center flex-wrap relative">
-                    <button data-filter="action">Acción</button>
-                    <button data-filter="strategy">Estrategia</button>
-                    <button data-filter="adventure">Aventura</button>
-                    <button data-filter="sports">Deporte</button>
+                    class="button-group mx-auto  flex items-center justify-center flex-wrap relative">
+                    <button id="todos" class="boton-categoria active">Categorías</button>
+                    <button id="accion" class="boton-categoria">Acción</button>
+                    <button id="estrategia" class="boton-categoria">Estrategia</button>
+                    <button id="aventura" class="boton-categoria">Aventura</button>
+                    <button id="deporte" class="boton-categoria" >Deporte</button>
                 </div>
 
                 <div class="mt-16 grid gap-6 place-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="category-games">
@@ -485,14 +486,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./src/slider.js"></script>
+    <script src="./src/js/slider.js"></script>
     <!-- Mi js -->
-    <script src="./src/main.js"></script>
+    <script src="./src/js/main.js"></script>
     <!-- JS Particles.js -->
-    <script src="./src/particles.min.js"></script>
-    <script src="./src/particles.js"></script>
+    <script src="./src/js/particles.min.js"></script>
+    <script src="./src/js/particles.js"></script>
     <!-- Fetch games -->
-    <script src="./src/games.js"></script>
+    <script src="./src/js/games.js"></script>
 
 </body>
 
