@@ -1,0 +1,219 @@
+
+    [
+        {
+            "id": 0,
+            "title": "Wonderlands",
+            "image": "./assets/img/games/0.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 1,
+            "title": "Nightmare Reaper",
+            "image": "./assets/img/games/1.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 2,
+            "title": "Symphony of War",
+            "image": "./assets/img/games/2.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 3,
+            "title": "Railway Empire",
+            "image": "./assets/img/games/3.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 4,
+            "title": "Wolcen",
+            "image": "./assets/img/games/4.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 5,
+            "title": "Chaos Reborn",
+            "image": "./assets/img/games/5.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 6,
+            "title": "Final Fantasy VII",
+            "image": "./assets/img/games/6.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 7,
+            "title": "Watch Dogs Legion",
+            "image": "./assets/img/games/7.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 8,
+            "title": "Destroy All Humans! 2",
+            "image": "./assets/img/games/8.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 9,
+            "title": "S.T.A.L.K.E.R. 2",
+            "image": "./assets/img/games/9.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 10,
+            "title": "Monster Hunter Rise",
+            "image": "./assets/img/games/10.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 11,
+            "title": "Steel Rising",
+            "image": "./assets/img/games/11.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 12,
+            "title": "Stray",
+            "image": "./assets/img/games/12.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 13,
+            "title": "NBA 2K23",
+            "image": "./assets/img/games/13.jpg",
+            "category": "Deporte"
+        },
+        {
+            "id": 14,
+            "title": "Endling",
+            "image": "./assets/img/games/14.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 15,
+            "title": "Capcom Fighting",
+            "image": "./assets/img/games/15.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 16,
+            "title": "Gotham Knights",
+            "image": "./assets/img/games/16.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 17,
+            "title": "Farming Simulator 22",
+            "image": "./assets/img/games/17.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 18,
+            "title": "Immortal Fenyx Rising",
+            "image": "./assets/img/games/18.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 19,
+            "title": "Shredder's Revenge",
+            "image": "./assets/img/games/19.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 20,
+            "title": "Builder Simulator",
+            "image": "./assets/img/games/20.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 21,
+            "title": "Neon White",
+            "image": "./assets/img/games/21.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 22,
+            "title": "Scorn",
+            "image": "./assets/img/games/22.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 23,
+            "title": "Ghost Recon",
+            "image": "./assets/img/games/23.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 24,
+            "title": "Battle Cry of Freedom",
+            "image": "./assets/img/games/24.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 25,
+            "title": "Blood and Zombies",
+            "image": "./assets/img/games/25.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 26,
+            "title": "Dark Deity",
+            "image": "./assets/img/games/26.jpg",
+            "category": "Estrategia" 
+        },
+        {
+            "id": 27,
+            "title": "Ghost Runner",
+            "image": "./assets/img/games/27.jpg",
+            "category": "Acción"
+        },
+        {
+            "id": 28,
+            "title": "Hellpoint Blue Sun",
+            "image": "./assets/img/games/28.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 29,
+            "title": "Manager 22",
+            "image": "./assets/img/games/29.jpg",
+            "category": "Deporte"
+        },
+        {
+            "id": 30,
+            "title": "Matchpoint",
+            "image": "./assets/img/games/30.jpg",
+            "category": "Deporte"
+        },
+        {
+            "id": 31,
+            "title": "Necro Smith",
+            "image": "./assets/img/games/31.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 32,
+            "title": "Phoenix Point",
+            "image": "./assets/img/games/32.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 33,
+            "title": "Rain World",
+            "image": "./assets/img/games/33.jpg",
+            "category": "Aventura"
+        },
+        {
+            "id": 34,
+            "title": "Sweet Transit",
+            "image": "./assets/img/games/34.jpg",
+            "category": "Estrategia"
+        },
+        {
+            "id": 35,
+            "title": "Time on Frog Island",
+            "image": "./assets/img/games/35.jpg",
+            "category": "Aventura"
+        }
+    ]

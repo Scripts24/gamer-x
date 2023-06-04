@@ -106,7 +106,7 @@
 
             <!--Cards Populares-->
 
-            <div class="game-card-list grid gap-6 md:grid-cols-2 lg:grid-cols-3 mx-10">
+            <div class="game-card-list grid gap-6 md:grid-cols-2 lg:grid-cols-3 place-items-center mx-2">
 
                 <div class="game-card">
                     <div class="game-card-top img-fit-cover">
@@ -147,9 +147,9 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-col items-end justify-between">
+                            <div class="flex items-end justify-between">
                                 <a href="https://www.youtube.com/watch?v=cDXepl8auN0" target="_self"
-                                    class="btn-primary uppercase">Ver video</a>
+                                    class="btn-primary">Trailer</a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
 
                             <div class="flex flex-col items-end justify-between">
                                 <a href="https://www.youtube.com/watch?v=gaCRuLXhLFw" target="_self"
-                                    class="btn-primary uppercase">Ver video</a>
+                                    class="btn-primary">Trailer</a>
                             </div>
                         </div>
                     </div>
@@ -241,9 +241,9 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-col items-end justify-between">
+                            <div class="flex items-end justify-between">
                                 <a href="https://www.youtube.com/watch?v=LdO8cTUB4IM" target="_self"
-                                    class="btn-primary uppercase">Ver video</a>
+                                    class="btn-primary">Trailer</a>
                             </div>
                         </div>
                     </div>
@@ -287,9 +287,9 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-col items-end justify-between">
+                            <div class="flex items-end justify-between">
                                 <a href="https://www.youtube.com/watch?v=7HoeHV2P5kU" target="_self"
-                                    class="btn-primary uppercase">Ver video</a>
+                                    class="btn-primary">Trailer</a>
                             </div>
                         </div>
                     </div>
@@ -334,9 +334,9 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-col items-end justify-between">
+                            <div class="flex items-end justify-between">
                                 <a href="https://www.youtube.com/watch?v=-aaPrvgnhI8" target="_self"
-                                    class="btn-primary uppercase">Ver video</a>
+                                    class="btn-primary ">Trailer</a>
                             </div>
                         </div>
                     </div>
@@ -380,9 +380,9 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-col items-end justify-between">
+                            <div class="flex items-end justify-between">
                                 <a href="https://www.youtube.com/watch?v=M4t1OFONu10" target="_self"
-                                    class="btn-primary uppercase">Ver video</a>
+                                    class="btn-primary">Trailer</a>
                             </div>
                         </div>
                     </div>
@@ -422,12 +422,27 @@
         <!--Fin Sección Populares-->
 
         <!--Inicio Sección Games-->
-        <section class="py-16 sc-category bg-violet-950"  id="category">
-            <div class = "container">
-                <div class = "sc-title">
+        <section class="py-16 sc-category bg-violet-950" id="category">
+            <div class="container">
+                <div class="sc-title">
                     <h3>Categorías</h3>
                 </div>
 
+                <div
+                    class="button-group mx-auto filter-button-group flex items-center justify-center flex-wrap relative">
+                    <button data-filter="action">Acción</button>
+                    <button data-filter="strategy">Estrategia</button>
+                    <button data-filter="adventure">Aventura</button>
+                    <button data-filter="sports">Deporte</button>
+                </div>
+
+                <div class="mt-16 grid gap-6 place-items-center sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3" id="category-games">
+
+                    <!--SE RELLENA CON JS-->
+                    <!--<div class="category-item img-fit-cover shadow-category-item overflow-hidden action shooter"></div>-->
+
+                </div>
+            </div>
 
         </section>
         <!--Fin Sección Games-->
@@ -435,24 +450,25 @@
     <!--Fin contenido principal-->
     <footer class="bg-indigo-950  py-10 relative">
         <div class="flex items-center justify-center flex-wrap gap-6">
-            <div class = "text-white">
-                <form class = "newsletter-form mt-4 mb-6">
-                    <div class = "input-group">
-                        <input type = "text" class = "input-group-field outline-none" placeholder="Suscríbete al newsletter" />
-                        <button class = "input-group-btn" type = "button">
-                            <i class = "fa-solid fa-paper-plane"></i>
+            <div class="text-white">
+                <form class="newsletter-form mt-4 mb-6">
+                    <div class="input-group">
+                        <input type="text" class="input-group-field outline-none"
+                            placeholder="Suscríbete al newsletter" />
+                        <button class="input-group-btn" type="button">
+                            <i class="fa-solid fa-paper-plane"></i>
                         </button>
                     </div>
                 </form>
             </div>
             <div>
-            <p class="font-poppins text-center text-white text-2xl mb-4 uppercase">Ga<span class="text-pink-700">mer</span><span>-</span><span
-                class="text-teal-400">x</span></p>
-            <p class="font-poppins text-white mb-6">
-                Todos los derechos reservados &copy;
-                <script> document.write(new Date().getFullYear());</script>
-            </p>
-        </div>
+                <p class="font-poppins text-center text-white text-2xl mb-4 uppercase">Ga<span
+                        class="text-pink-700">mer</span><span>-</span><span class="text-teal-400">x</span></p>
+                <p class="font-poppins text-white mb-6">
+                    Todos los derechos reservados &copy;
+                    <script> document.write(new Date().getFullYear());</script>
+                </p>
+            </div>
             <img src="./assets/img/developed.png" class="w-[290px] h-[60px] ">
         </div>
     </footer>
@@ -470,7 +486,8 @@
     <!-- JS Particles.js -->
     <script src="./src/particles.min.js"></script>
     <script src="./src/particles.js"></script>
-
+    <!-- Fetch games -->
+    <script src="./src/games.js"></script>
 
 </body>
 

@@ -178,7 +178,27 @@ ul{
     @apply pt-3 text-white/60 text-[14px];
 }
 
+/*CATEGORÍAS*/
 
+.sc-category .button-group button{
+    @apply border-[1px] border-solid border-white py-2 px-[18px] text-white text-[18px] tracking-[.08em] font-medium uppercase lg:mx-[6px];
+}
+
+.active-filter-button{
+    @apply bg-purple-500;
+}
+
+.category-item{
+    @apply w-[320px] h-[310px] relative after:content-[''] after:absolute after:top-0 after:left-0 after:w-full after:h-full overflow-hidden ;
+}
+
+.category-item::after{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.92) 100%);
+}
+
+.category-item-info{
+    @apply absolute left-4 right-4 bottom-0 mb-6 border-solid border-b-[2px] border-white z-10;
+}
 
 /* Slick slider */
 
