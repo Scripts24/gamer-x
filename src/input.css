@@ -5,6 +5,58 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.loader{
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px 20px;
+  }
+  @keyframes load{
+    50%{
+      transform:rotatez(180deg) scale(0.2);
+      border-color:orange;
+    }
+    100%{
+      transform:rotatez(360deg) scale(1.1);
+    }
+  }
+
+  @keyframes load6{
+    50%{
+      transform:rotatez(180deg);
+      border-width:40px;
+    }
+    100%{
+      transform:rotatez(360deg);
+    }
+  }
+  .loader6::before{
+    content:"";
+    color:white;
+    height:0px;
+    width:0px;
+    background:transparent;
+    border-radius:50%;
+    border:35px ridge red;
+    border-color:indigo lime yellow orangered;
+    animation:load6 .5s infinite;
+  }
+
 /*clases reutilizables*/
 
 .container{
